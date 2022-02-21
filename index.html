@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Utilities</title>
+  </head>
+  <body>
+    <h1>Utilities</h1>
+    <input
+      id="file_upload"
+      type="file"
+      accept=".jpg,.jpeg,.png,.gif"
+      multiple
+    />
+    <button type="button" id="submit">Compress</button>
+  </body>
+</html>

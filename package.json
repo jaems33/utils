@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "electron": "^17.0.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "main": "main.js",
+  "name": "utilities-application",
+  "version": "1.0.0",
+  "author": "James Teow",
+  "license": "MIT",
+  "dependencies": {
+    "browser-image-compression": "^1.0.17"
+  }
+}
