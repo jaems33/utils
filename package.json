@@ -11,6 +11,7 @@
   "author": "James Teow",
   "license": "MIT",
   "dependencies": {
-    "browser-image-compression": "^1.0.17"
+    "browser-image-compression": "^1.0.17",
+    "jimp": "^0.16.1"
   }
 }
